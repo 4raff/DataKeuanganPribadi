@@ -91,3 +91,36 @@
 	"relasi.h"
 	<iomanip>
 
+1736289593 source:c:\users\asus\onedrive - telkom university\dokumen\github\datakeuanganpribadi\keuangan\child.cpp
+	"child.h"
+	<iomanip>
+
+1736289593 c:\users\asus\onedrive - telkom university\dokumen\github\datakeuanganpribadi\keuangan\child.h
+	<iomanip>
+	<iostream>
+
+1736289593 source:c:\users\asus\onedrive - telkom university\dokumen\github\datakeuanganpribadi\keuangan\parent.cpp
+	"parent.h"
+	<iomanip>
+
+1736289593 c:\users\asus\onedrive - telkom university\dokumen\github\datakeuanganpribadi\keuangan\parent.h
+	<iomanip>
+	<iostream>
+
+1736291713 source:c:\users\asus\onedrive - telkom university\dokumen\github\datakeuanganpribadi\keuangan\relasi.cpp
+	"relasi.h"
+	<iomanip>
+
+1736291633 c:\users\asus\onedrive - telkom university\dokumen\github\datakeuanganpribadi\keuangan\relasi.h
+	"parent.h"
+	"child.h"
+	<iostream>
+	<iomanip>
+
+1736292033 source:c:\users\asus\onedrive - telkom university\dokumen\github\datakeuanganpribadi\keuangan\main.cpp
+	<iostream>
+	"parent.h"
+	"child.h"
+	"relasi.h"
+	<iomanip>
+

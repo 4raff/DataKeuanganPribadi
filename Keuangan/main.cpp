@@ -147,23 +147,25 @@ int main() {
 
         } else if (choice == 9) {
             infotypep Xp;
+            infotypec Xc;
             cout << "Masukkan Nama Periode: ";
             cin >> Xp.namaperiode;
-
+            cout << "Masukkan Nama Pengeluaran: ";
+            cin >> Xc.judul;
+            addressc C = searchc(uang, Xc);
             addressp P = searchp(tahun, Xp);
-            if (P != NULL) {
-                findchildinparent(relasi, P);
+            if (P != NULL && C != NULL) {    
+                findchildinparent(relasi, P, C);
             } else {
-                cout << "Periode tidak ditemukan!" << endl;
+                cout << "Periode/Pengeluaran tidak ditemukan!" << endl;
             }
 
         } else if (choice == 10) {
             infotypec Xc;
             cout << "Masukkan Judul Pengeluaran: ";
             cin >> Xc.judul;
-
             addressc C = searchc(uang, Xc);
-            if (C != NULL) {
+            if (C != NULL) {   
                 findparentinchild(relasi, C);
             } else {
                 cout << "Pengeluaran tidak ditemukan!" << endl;

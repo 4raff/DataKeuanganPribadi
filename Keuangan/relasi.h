@@ -41,8 +41,8 @@ void connect(listr &LR, listp LP, listc LC, infotypep px, infotypec cx);
 void printrelasi(listr LR, listp LP);
 void deletechildfromparent(listr &LR, listc &LC, addressp P, addressc C);
 void deleteallrelations(listr &LR, addressp P);
-void findchildinparent(listr LR, addressp P);
-void findparentinchild(listr LR, addressc C);
+void findchildinparent(listr LR, addressp P, addressc C);
+void findparentinchild(listr LR, addressc C);   
 int countchildfromparent(listr &L, addressp P);
 void findLargestExpenseInPeriod(listr LR, listp LP, string periode);
 #endif // RELASI_H_INCLUDED

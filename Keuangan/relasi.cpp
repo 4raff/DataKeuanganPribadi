@@ -187,7 +187,7 @@ void deleteallrelations(listr &LR, addressp P) {
 }
 
 
-void findchildinparent(listr LR, addressp P) {
+void findchildinparent(listr LR, addressp P, addressc C) {   
     addressr R = first(LR);
     cout << "+--------------------------------------------------------+" << endl;
     cout << "|        Data Keuangan pada Periode: " << setw(23) << left << info(P).namaperiode << endl;
@@ -198,7 +198,7 @@ void findchildinparent(listr LR, addressp P) {
     bool found = false;
 
     while (R != NULL) {
-        if (parent(R) == P) {
+        if (parent(R) == P && child(R) == C) {
             cout << "| " << setw(20) << left << info(child(R)).uang
                  << "| " << setw(31) << left << info(child(R)).judul << endl;
             found = true;
@@ -207,7 +207,8 @@ void findchildinparent(listr LR, addressp P) {
     }
 
     if (!found) {
-        cout << "|                 Tidak ada data pengeluaran             |" << endl;
+        cout << "| " << setw(20) << left << " "
+             << "| " << setw(31) << left << "Tidak ditemukan" << endl;
     }
 
     cout << "+----------------------+---------------------------------+" << endl;
@@ -233,7 +234,9 @@ void findparentinchild(listr LR, addressc C) {
     }
 
     if (!found) {
-        cout << "|                 Tidak ada data pengeluaran             |" << endl;
+        cout << "| " << setw(20) << left << " "
+             << "| " << setw(22) << left << "Tidak ditemukan"
+             << "| " << setw(18) << left << " " << endl;
     }
 
     cout << "+----------------------+----------------------+------------------+" << endl;
