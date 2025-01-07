@@ -1,0 +1,93 @@
+# depslib dependency file v1.0
+1733638136 source:c:\keuangan\main.cpp
+	<iostream>
+	"parent.h"
+	"child.h"
+	"relasi.h"
+
+1733639156 source:c:\keuangan\relasi.cpp
+	"relasi.h"
+
+1733637491 source:c:\keuangan\parent.cpp
+	"parent.h"
+
+1733639212 c:\keuangan\parent.h
+	<iostream>
+
+1733639156 source:c:\keuangan\child.cpp
+	"child.h"
+
+1733639223 c:\keuangan\child.h
+	<iostream>
+
+1733639212 c:\keuangan\relasi.h
+	"parent.h"
+	"child.h"
+	<iostream>
+
+1734319621 source:c:\users\ekada\documents\tubes std sem 3\keuangan\keuangan\child.cpp
+	"child.h"
+	<iomanip>
+
+1734173914 c:\users\ekada\documents\tubes std sem 3\keuangan\keuangan\child.h
+	<iomanip>
+	<iostream>
+
+1734318975 source:c:\users\ekada\documents\tubes std sem 3\keuangan\keuangan\main.cpp
+	<iostream>
+	"parent.h"
+	"child.h"
+	"relasi.h"
+	<iomanip>
+
+1734173911 c:\users\ekada\documents\tubes std sem 3\keuangan\keuangan\parent.h
+	<iomanip>
+	<iostream>
+
+1734173916 c:\users\ekada\documents\tubes std sem 3\keuangan\keuangan\relasi.h
+	"parent.h"
+	"child.h"
+	<iostream>
+	<iomanip>
+
+1734320286 source:c:\users\ekada\documents\tubes std sem 3\keuangan\keuangan\parent.cpp
+	"parent.h"
+	<iomanip>
+
+1734320234 source:c:\users\ekada\documents\tubes std sem 3\keuangan\keuangan\relasi.cpp
+	"relasi.h"
+	<iomanip>
+
+1736287680 source:c:\users\asus\downloads\keuangan\child.cpp
+	"child.h"
+	<iomanip>
+
+1736287680 c:\users\asus\downloads\keuangan\child.h
+	<iomanip>
+	<iostream>
+
+1736287701 source:c:\users\asus\downloads\keuangan\main.cpp
+	<iostream>
+	"parent.h"
+	"child.h"
+	"relasi.h"
+	<iomanip>
+
+1736287680 c:\users\asus\downloads\keuangan\parent.h
+	<iomanip>
+	<iostream>
+
+1734721989 c:\users\asus\downloads\keuangan\relasi.h
+	"parent.h"
+	"child.h"
+	<iostream>
+	<iomanip>
+
+1736287680 source:c:\users\asus\downloads\keuangan\parent.cpp
+	"parent.h"
+	<iomanip>
+
+1736285040 source:c:\users\asus\downloads\keuangan\relasi.cpp
+	"relasi.h"
+	<iomanip>
+
